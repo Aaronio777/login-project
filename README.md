@@ -14,4 +14,5 @@
 - Простая валидация полей
 - Адаптивный дизайн для различных устройств
 
-# Ссылка на сам проект (https://aaronio777.github.io/login-project/)
+# Ссылка на сам проект 
+(https://aaronio777.github.io/login-project/)
