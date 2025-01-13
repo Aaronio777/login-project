@@ -15,4 +15,5 @@
 - Адаптивный дизайн для различных устройств
 
 # Ссылка на сам проект 
+![Превью](./images/screen.JPG)
 (https://aaronio777.github.io/login-project/)
