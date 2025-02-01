@@ -1,0 +1,23 @@
+{
+  "name": "login-project",
+  "version": "1.0.0",
+  "description": "Проект \"Логин и Пароль\" представляет собой простую веб-страницу, которая демонстрирует форму для входа пользователя. Этот проект разработан с использованием HTML, CSS и JS, и предназначен для обучения основам веб-разработки.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo 'Привет!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaronio777/login-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaronio777/login-project/issues"
+  },
+  "homepage": "https://github.com/Aaronio777/login-project#readme",
+  "dependencies": {
+    "prettier": "^3.4.2",
+    "stylelint": "^16.14.1"
+  }
+}
