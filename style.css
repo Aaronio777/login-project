@@ -12,6 +12,8 @@
 }
 
 body {
+  --main-text-color: #152028;
+  --main-background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +22,30 @@ body {
   background: url(./images/for\ project.jpg) no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --main-text-color: #ffffff;
+    --main-background-color: #152028;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --main-text-color: #152028;
+    --main-background-color: #ffffff;
+  }
+}
+
+body:has(.theme-toggler__control_type_light:checked) {
+  --main-text-color: #152028;
+  --main-background-color: #fff;
+}
+
+body:has(.theme-toggler__control_type_dark:checked) {
+  --main-text-color: #fff;
+  --main-background-color: #152028;
 }
 
 .wrapper {
